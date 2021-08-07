@@ -1,0 +1,44 @@
+body {
+    margin: 0%;
+    font-family: 'Josefin Slab', serif;
+    background: url(IMG/office_design_desks_computers_graphics_80537_3840x2160.jpg) no-repeat center center fixed;
+    
+;
+
+}
+.navigation {
+    background-color: black;
+    color: white; 
+}
+.navigation ul {
+    display:flex;
+    list-style: none;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.navigation ul li {
+    padding: 15px 15px;
+}
+.navigation ul li:hover {
+    color: rgb(255, 196, 124);
+    cursor: pointer;
+}
+/* header section Ends */
+.hero {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /* background: url(IMG/Aesthetic-Computer-Background-4k.jpg); */
+}
+.hero h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px 8px black;
+}
+.hero p {
+    width: 700px;
+    text-shadow: 2px 2px 8px black;
+
+}
